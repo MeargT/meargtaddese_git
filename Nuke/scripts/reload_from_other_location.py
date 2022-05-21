@@ -28,10 +28,6 @@ def load_from_amd():
                 read.knob('colorspace').setValue('ACES - ACEScg')
     nuke.root()["workingSpaceLUT"].setValue('ACES - ACEScg')
 
-
-nuke.addOnUserCreate(lambda:nuke.thisNode()['first_frame'].setValue(nuke.frame()), nodeClass='FrameHold')
-
-
 toolbar = nuke.menu('Nodes')
 myMenu = toolbar.findItem('meargMenu')
 if myMenu:
