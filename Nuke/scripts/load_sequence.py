@@ -1,3 +1,8 @@
+# ==========================================================
+# this will take selected write node and 
+# load sequence back as read node with full frame range
+# ==========================================================
+
 def load_seq():
     read_node = nuke.selectedNode()
     render_path = read_node.knob('file').getValue()
