@@ -3,6 +3,8 @@
 # load sequence back as read node with full frame range
 # ==========================================================
 
+import nuke 
+
 def load_seq():
     read_node = nuke.selectedNode()
     render_path = read_node.knob('file').getValue()
