@@ -1,5 +1,5 @@
 #set path for texture files
-texPath = hou.ui.selectFile(title = "where is your material folder", file_type = hou.file)
+texPath = hou.ui.selectFile(title = "where is your material folder", file_type = hou.file.Directory)
 foldername = hou.expandString(texPath)
 folderlist = foldername.split('/')
 lent = len(folderset)
