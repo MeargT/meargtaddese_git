@@ -1,4 +1,4 @@
 # Bazeto_RND
 
-This is collections of helpful tools developed for the artists at Bazeto.
+Thess are collections of helpful little tools and scripts I start to develope and use,
 mainly focusing in Houdini and Nuke automation toolset.
